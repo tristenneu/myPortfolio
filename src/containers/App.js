@@ -11,7 +11,6 @@ class App extends Component {
 			    <Layout style={{background: 'url(https://images.unsplash.com/photo-1506971456216-7b494f54d588?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=802308f2ab4504df4ca8dee210c76701&auto=format&fit=crop&w=1266&q=80) center / cover'}}>
 			        <Header transparent title={<Link to="/" style={{color: 'white', textDecoration: 'none'}}>Home</Link>}>
 			            <Navigation>
-			                <Link to="/blog">Blog</Link>
 			                <Link to="/resume">Resume</Link>
 			                <Link to="/projects">Projects</Link>
 			                <Link to="/contact">Conact</Link>
@@ -19,7 +18,6 @@ class App extends Component {
 			        </Header>
 			        <Drawer title={<Link to="/" style={{color: 'black', textDecoration: 'none'}}>Home</Link>}>
 			            <Navigation>
-			                <Link to="/blog">Blog</Link>
 			                <Link to="/resume">Resume</Link>
 			                <Link to="/projects">Projects</Link>
 			                <Link to="/contact">Contact</Link>
