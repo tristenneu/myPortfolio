@@ -9,9 +9,9 @@ import Contact from './contact';
 const Routes = () => (
 	<Switch>
 		<Route exact path="/" component={LandingPage} />
-		<Route path="/resume" component={Resume} />
+		{/* <Route path="/resume" component={Resume} />
 		<Route path="/projects" component={Projects} />
-		<Route path="/contact" component={Contact} />
+		<Route path="/contact" component={Contact} /> */}
 	</Switch>
 )
 

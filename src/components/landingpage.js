@@ -17,7 +17,8 @@ class Landing extends Component {
 						<div className="banner-text">
 							<h1>&lt; h1 &gt;</h1>
 							<hr/>
-							<p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
+							{/* <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p> */}
+							<p> </p>
 							<div className="social-links">
 								{/* LinkedIn */}
 								<a href="https://www.linkedin.com/in/tristenneu/" rel="noopener noreferrer" target="_blank">
@@ -37,7 +38,7 @@ class Landing extends Component {
 								</a>
 							</div>
 						</div>
-						<Footer size="mini" className="footer">
+						{/* <Footer size="mini" className="footer">
 						    <FooterSection type="left" logo="h1gh">
 						        <FooterLinkList>
 						            <Link to="/contact">Help</Link>
@@ -45,7 +46,7 @@ class Landing extends Component {
 						            <Link to="/contact">User Agreement</Link>
 						        </FooterLinkList>
 						    </FooterSection>
-						</Footer>
+						</Footer> */}
 					</Cell>
 				</Grid>
 			</div>
