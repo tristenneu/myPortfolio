@@ -86,6 +86,16 @@
   margin: auto;
 }
 
+@media (max-width: 500px) {
+  .banner-text h1 {
+    display: none;
+  }
+
+  .banner-text hr {
+    display: none;
+  }
+}
+
 .banner-text p {
   color: white;
   font-size: 20px;
