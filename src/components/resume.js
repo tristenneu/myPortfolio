@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import { Document, Page } from 'react-pdf';
+// import { Document, Page } from 'react-pdf';
 
 class Resume extends Component {
   state = {
@@ -18,12 +18,12 @@ class Resume extends Component {
       <div>
         <Grid>
           <Cell col={12} offsetDesktop={4} phone={4} tablet={8} style={{overflowX: 'auto'}}>
-              <Document
+              {/* <Document
                 file="BlackAndPastelModernCreativeResume.pdf"
                 onLoadSuccess={this.onDocumentLoadSuccess}
               >
                 <Page pageNumber={pageNumber} />
-              </Document>
+              </Document> */}
               <p>Page {pageNumber} of {numPages}</p>
           </Cell>
         </Grid>

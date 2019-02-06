@@ -3,7 +3,6 @@ import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Routes from '../components/routes';
 import { Link } from 'react-router-dom';
-import resume from './BlackAndPastelModernCreativeResume.pdf'
 
 class App extends Component {
 	render() {
@@ -15,7 +14,8 @@ class App extends Component {
 			                {/* <Link to="/resume">Resume</Link>
 			                <Link to="/projects">Projects</Link>
 							<Link to="/contact">Contact</Link> */}
-							<a href={resume}>Resume</a>
+							{/* <a target="_blank" href="http://localhost:3000/BlackAndPastelModernCreativeResume.pdf">Resume</a> */}
+							<a target="_blank" href="/BlackAndPastelModernCreativeResume.pdf" download>Resume <i class="fas fa-arrow-down"></i></a>
 			                <a target="_blank" href="https://tristenneu.thehackhive.com/">Projects</a>
 			                <a target="_blank" href="https://medium.com/@tristenneu">Blog</a>
 							<a target="_blank" href="https://form.jotform.com/90358010402140">Contact</a>
@@ -23,7 +23,8 @@ class App extends Component {
 			        </Header>
 			        <Drawer title={<Link to="/" style={{color: 'black', textDecoration: 'none'}}>Home</Link>}>
 			            <Navigation>
-							<a href={resume}>Resume</a>
+							{/* <a target="_blank" href="http://localhost:3000/BlackAndPastelModernCreativeResume.pdf">Resume</a> */}
+							<a target="_blank" href="/BlackAndPastelModernCreativeResume.pdf" download>Resume</a>
 			            	<a target="_blank" href="https://tristenneu.thehackhive.com/">Projects</a>
 			                <a target="_blank" href="https://medium.com/@tristenneu">Blog</a>
 							<a target="_blank" href="https://form.jotform.com/90358010402140">Contact</a>
