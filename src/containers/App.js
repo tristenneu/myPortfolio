@@ -15,7 +15,7 @@ class App extends Component {
 			                <Link to="/projects">Projects</Link>
 							<Link to="/contact">Contact</Link> */}
 							{/* <a target="_blank" href="http://localhost:3000/BlackAndPastelModernCreativeResume.pdf">Resume</a> */}
-							<a target="_blank" href="/BlackAndPastelModernCreativeResume.pdf" download>Resume <i class="fas fa-arrow-down"></i></a>
+							<a href="/Neu_Tristen_Resume.pdf" download>Resume <i class="fas fa-arrow-down"></i></a>
 			                <a target="_blank" href="https://tristenneu.thehackhive.com/">Projects</a>
 			                <a target="_blank" href="https://medium.com/@tristenneu">Blog</a>
 							<a target="_blank" href="https://form.jotform.com/90358010402140">Contact</a>
@@ -24,7 +24,7 @@ class App extends Component {
 			        <Drawer title={<Link to="/" style={{color: 'black', textDecoration: 'none'}}>Home</Link>}>
 			            <Navigation>
 							{/* <a target="_blank" href="http://localhost:3000/BlackAndPastelModernCreativeResume.pdf">Resume</a> */}
-							<a target="_blank" href="/BlackAndPastelModernCreativeResume.pdf" download>Resume</a>
+							<a href="/Neu_Tristen_Resume.pdf" download>Resume <i class="fas fa-arrow-down"></i></a>
 			            	<a target="_blank" href="https://tristenneu.thehackhive.com/">Projects</a>
 			                <a target="_blank" href="https://medium.com/@tristenneu">Blog</a>
 							<a target="_blank" href="https://form.jotform.com/90358010402140">Contact</a>
